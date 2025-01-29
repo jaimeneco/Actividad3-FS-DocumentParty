@@ -75,4 +75,8 @@ El App.jsx debe tener este formato:
 </BlogPost>
 ```
 
-## 
+## Ejercicio 10. Componente de alerta (alert box):
+   - Objetivo: Crear un componente `AlertBox` que muestre un mensaje de alerta con un ícono (como un signo de exclamación) y un texto.
+   - Requisitos:
+     - El componente debe recibir el tipo de alerta (por ejemplo, "error", "success", "warning") como prop para cambiar el color del borde y el ícono.
+     - Mostrar el mensaje dentro de la caja de alerta, con un estilo distinto según el tipo de alerta.

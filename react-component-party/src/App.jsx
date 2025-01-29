@@ -42,6 +42,9 @@ function App() {
 
   {/* Actividad 5: Galería de Imágenes */ }
 
+  {/* Actividad 10: Componente de alerta */ }
+
+
 
   return (
     <>
@@ -65,8 +68,24 @@ function App() {
       <BlogPost nombre="Mi Primer Post" autor="Jaime Nebot" fecha="2025-07-01" >
         <p>Lorem ipsum dolor,adipisci unde tempora recusandae tenetur numquam reprehenderit id quaerat, iure magni consectetur alias neque amet, quisquam repudiandae? Saepe temporibus inventore ipsa! Praesentium!</p>
       </BlogPost>
+
+      <h2>Actividad 10: Componente de alerta</h2>
+      {/* Prop mando status y como children el texto */}
+      <AlertBox status="success">
+        ¡Toca balón!
+      </AlertBox>
+
+      <AlertBox status="warning">
+        ¡Tarjeta amarilla!
+      </AlertBox>
+
+      <AlertBox status="error">
+        ¡Tarjeta roja!
+      </AlertBox>
     </>
   )
 }
 
 export default App
+
+ const AlertBox = ({ status, children }) => {}
