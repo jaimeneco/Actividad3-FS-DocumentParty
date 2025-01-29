@@ -30,7 +30,7 @@ const tareas = [
 
 ## Ejercicio 3: El Barto Perfil
 
-- Crear un componenten llamado `PerfilUsuario` que arme una tarjeta con los siguientes datos de perfil.
+- Crear un componente llamado `PerfilUsuario` que arme una tarjeta con los siguientes datos de perfil.
 - Atención, este objeto posee otro objeto anidado dentro, deconstruir como corresponde.
 
 ```js
@@ -38,12 +38,10 @@ const tareas = [
 const userData = {
 nombre: 'El Barto',
 email: 'elbarto@fox.com',
-img: "https://i.ebayimg.com/images/g/Z9oAAOSwH7NlKK4J/s-l1200.webp&quot;,
-direccion: {
+img: "https://i.ebayimg.com/images/g/Z9oAAOSwH7NlKK4J/s-l1200.webp",
 calle: 'Calle Falsa 123',
 ciudad: 'Springfield',
 codigoPostal: '12345'
-}
 };
 ```
 
@@ -57,9 +55,9 @@ codigoPostal: '12345'
 // GaleriaImagenes (Array de Objetos)
 // https://rickandmortyapi.com/
 const iamgeList = [
-{ src: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg&#39;, alt: 'Rick Sanchez' },
-{ src: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg&#39;, alt: 'Morty Smith' },
-{ src: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg&#39;, alt: 'Summer Smith' },
+{ src: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg', alt: 'Rick Sanchez' },
+{ src: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg', alt: 'Morty Smith' },
+{ src: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg', alt: 'Summer Smith' },
 ];
 ```
 
@@ -76,3 +74,5 @@ El App.jsx debe tener este formato:
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
 </BlogPost>
 ```
+
+## 
