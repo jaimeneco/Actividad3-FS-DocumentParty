@@ -1,15 +1,15 @@
-import { TarjetaUsuario } from "./components/TarjetaUsuario";
+// import { TarjetaUsuario } from "./components/TarjetaUsuario";
 import { PerfilUsuario } from "./components/PerfilUsuario";
 import './App.css'
 
 function App() {
-  {/* Actividad 1: Tarjeta de Usuario. */ }
-  <div className="Contenedora-tarjetas">
-    {personas.map((persona, i) => (
+  // {/* Actividad 1: Tarjeta de Usuario. */ }
+  // <div className="Contenedora-tarjetas">
+  //   {personas.map((persona, i) => (
 
-      <TarjetaUsuario key={i} nombre={persona.nombre} edad={persona.edad} ocupacion={persona.ocupacion} />
-    ))}
-  </div>
+  //     <TarjetaUsuario key={i} nombre={persona.nombre} edad={persona.edad} ocupacion={persona.ocupacion} />
+  //   ))}
+  // </div>
 
   {/* Actividad 2: Lista de tareas. */ }
   const tareas = [
@@ -88,4 +88,4 @@ function App() {
 
 export default App
 
- const AlertBox = ({ status, children }) => {}
+const AlertBox = ({ status, children }) => {}
